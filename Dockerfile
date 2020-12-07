@@ -1,4 +1,4 @@
-FROM golang:alpine as builder
+FROM quay.io/praveen4g0/golang:alpine as builder
 
 WORKDIR /build
 ADD . /build/
