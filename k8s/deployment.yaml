@@ -21,3 +21,6 @@ spec:
           ports:
             - containerPort: 9000
               protocol: TCP
+  containers:
+    - image:
+        value: quay.io/openshift-pipeline/vote-api:v1.4
